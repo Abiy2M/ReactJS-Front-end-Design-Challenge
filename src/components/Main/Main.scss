@@ -1,5 +1,6 @@
 .main {
   min-height: 100vh;
+
   .top_div {
     text-transform: capitalize;
     font-size: 26px;
@@ -7,10 +8,13 @@
     margin: 2vw;
     margin-top: 3vh;
     //   font-family: ;
+    p{
+      font-family: 'Poppins', sans-serif, serif;
+    }
   }
 
   .center_div {
-    margin-top: 22vh;
+    margin-top: 28vh;
     text-transform: uppercase;
     align-self: center;
     justify-content: center;
@@ -25,7 +29,10 @@
       display: flex;
       justify-content: space-between;
       font-size: 45px;
-      margin-left: 9vw;
+      margin-left: 6vw;
+      .left{
+        margin-left: 5%;
+      }
 
       .right {
         text-transform: capitalize;
@@ -34,6 +41,7 @@
       }
     }
     .wildlife {
+        
       margin-left: 9vw;
       font-size: 245px;
       margin-top: -5vh;
